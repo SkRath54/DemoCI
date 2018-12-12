@@ -1,5 +1,5 @@
 
- import java.io.*;
+import java.io.*;
 import javax.servlet.*;
 import javax.servlet.http.*;
 
@@ -9,7 +9,7 @@ public class HelloWorld extends HttpServlet {
     throws IOException, ServletException
     {
         response.setContentType("text/html");
-        PrintWriter out = response.getWriter);
+        PrintWriter out = response.getWriter();
         out.println("<html>");
         out.println("<head>");
         out.println("<title>Hello World!</title>");
